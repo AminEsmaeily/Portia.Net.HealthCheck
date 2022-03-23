@@ -13,6 +13,7 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 // The middleware should be added after the authorization middleware (if exists)
