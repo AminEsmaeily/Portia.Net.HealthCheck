@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Features;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace Portia.Net.HealthCheck.Core
 {
@@ -30,7 +30,7 @@ namespace Portia.Net.HealthCheck.Core
             string queryString;
             try
             {
-                queryString = JsonConvert.SerializeObject(context.Request.Query);
+                queryString = JsonSerializer.Serialize(context.Request.Query);
             }
             catch
             {

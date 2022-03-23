@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portia.Net.HealthCheck.Core", "Portia.Net.HealthCheck.Core\Portia.Net.HealthCheck.Core.csproj", "{81CA0559-35CD-4176-A273-26057ECC2416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portia.Net.HealthCheck.Sample", "Portia.Net.HealthCheck.Sample\Portia.Net.HealthCheck.Sample.csproj", "{7DD3D7FE-E12F-449B-82C4-029C90435A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portia.Net.HealthCheck.Sample", "Portia.Net.HealthCheck.Sample\Portia.Net.HealthCheck.Sample.csproj", "{7DD3D7FE-E12F-449B-82C4-029C90435A48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{127BEE35-5C58-47D1-8334-FD67F2A5EBEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portia.Net.HealthCheck.Test50", "Portia.Net.HealthCheck.Test50\Portia.Net.HealthCheck.Test50.csproj", "{9B3DF65A-A9F0-4727-9E3F-085CFB9089E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{7DD3D7FE-E12F-449B-82C4-029C90435A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD3D7FE-E12F-449B-82C4-029C90435A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD3D7FE-E12F-449B-82C4-029C90435A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3DF65A-A9F0-4727-9E3F-085CFB9089E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3DF65A-A9F0-4727-9E3F-085CFB9089E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3DF65A-A9F0-4727-9E3F-085CFB9089E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3DF65A-A9F0-4727-9E3F-085CFB9089E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B3DF65A-A9F0-4727-9E3F-085CFB9089E1} = {127BEE35-5C58-47D1-8334-FD67F2A5EBEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {325A21F5-0578-4134-BB52-99C045F20C76}
