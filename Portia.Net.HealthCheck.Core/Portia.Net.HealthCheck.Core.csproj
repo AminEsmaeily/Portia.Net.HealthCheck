@@ -14,7 +14,6 @@
 	  <RepositoryUrl>https://github.com/AminEsmaeily/Portia.Net.HealthCheck</RepositoryUrl>
 	  <PackageTags>dotnet;health check;performance check;monitoring</PackageTags>
 	  <LangVersion>preview</LangVersion>
-	  <PackageLicenseFile>E:\Workspace\ASP.Net\Portia.Net.HealthCheck\Portia.Net.HealthCheck.Core\License.txt</PackageLicenseFile>
 	  <PackageReadmeFile>README.MD</PackageReadmeFile>
   </PropertyGroup>
 
@@ -35,6 +34,7 @@
     <None Update="README.MD">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
